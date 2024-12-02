@@ -1,0 +1,62 @@
+{
+  "name": "EndoCalc",
+  "short_name": "EndoCalc",
+  "description": "Endocrinology Calculator for Medical Professionals",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7fafc",
+  "theme_color": "#2c7a9e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "android/android-launchericon-512-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "android/android-launchericon-192-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "android/android-launchericon-144-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "android/android-launchericon-96-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "android/android-launchericon-72-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "android/android-launchericon-48-48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "BMI Calculator",
+      "url": "/#bmi",
+      "icons": [{ "src": "android/android-launchericon-96-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "eGFR Calculator",
+      "url": "/#egfr-mdrd",
+      "icons": [{ "src": "android/android-launchericon-96-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "categories": ["medical", "utilities", "productivity"],
+  "prefer_related_applications": false
+}
